@@ -1,0 +1,78 @@
+html body{
+    width: 1000px;
+    height:90vh ;
+    background: rgba(33, 36, 107, 0.02);
+}
+body {
+    color: #21246B;
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  p{
+    margin-top: -3px;
+    margin-left: 50px;
+}
+  a{
+    text-decoration: none;
+  }
+
+  input[type=text], input[type=password]
+   {
+    width: 100%;
+    padding: 19px 30%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #21246B;
+    border-radius: 20px;
+    
+  }
+
+
+  button:hover {
+    opacity: 0.8;
+  }
+  button{
+    width: 20%;
+    height:50px ;
+    background: #21246B;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+    padding: 14px 20px;
+    margin: 10px;
+    margin-left: 200px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+h1{
+  margin-top: -30px;
+
+}
+
+  .container {
+    padding: 40px;
+    width: 527px;
+    height: 45vh;
+    border: 1px solid #21246B;
+    margin-left: 400px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+  @media screen and (min-width: 480px) {
+    /* tablet */
+    input[type=text], input[type=password] {
+      width: 50%;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    /* desktop */
+    input[type=text], input[type=password] {
+      width: 30%;
+    }
+  }
