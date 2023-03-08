@@ -1,0 +1,149 @@
+html{
+width:100%;
+height: 150vh ;
+background-color:#21246B;
+color: aliceblue;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main-div{
+    width:100vh;
+height: 150vh ;
+overflow: hidden;
+}
+.Menu-container{
+    width: 300px;
+    height: 90vh;
+    margin-top: 40px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: #21246B;
+    border: 0.1px white solid;
+    position: fixed;
+}
+
+li{
+    margin-bottom: 40px;
+
+}
+.post-area{
+  width: 50%;
+  height: 150vh;
+  background-color: white;
+  flex-grow: 1;
+  position: absolute;
+  left: 400px;
+  z-index: -1;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+button{
+    width: 100px;
+    height:30px ;
+    background: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+    border: none;
+    cursor: pointer;
+    color: #21246B;
+}
+br{
+  margin-bottom: 50px;
+}
+
+i{
+    margin-right: 10px;
+}
+ul{
+    list-style: none;
+}
+/* For desktop screens */
+.main-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  /*I dont want this for now
+
+
+  .Menu-container {
+    display: flex;
+  }
+  
+  .Menu-container nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }*/
+  
+  .Menu-container nav ul li {
+    margin-right: 10px;
+  }
+  
+  
+  
+  .essentials {
+    flex-shrink: 0;
+  }
+  
+  /*
+  .essentials nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .essentials nav ul li {
+    margin-right: 10px;
+  }
+  
+  /* For tablet screens */
+  @media screen and (max-width: 768px) {
+    .main-div {
+      flex-direction: column;
+    }
+    
+    .Menu-container nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .Menu-container nav ul li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    
+    .essentials nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .essentials nav ul li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* For phone screens */
+  @media screen and (max-width: 480px) {
+    .Menu-container nav ul {
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    .essentials nav ul {
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+  
